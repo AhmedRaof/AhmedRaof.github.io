@@ -89,3 +89,147 @@
 }
 
 /*end search box when press search icon*/
+
+/*start nav bar*/
+.navbar {
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+}
+
+.navbar .custom-menu ul li {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar .custom-menu ul li a {
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #080808;
+}
+
+
+.navbar .custom-menu ul li a:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 4px;
+    width: 0;
+    transition: width 0s ease, .25s ease;
+}
+
+.navbar .custom-menu ul li a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -4px;
+    height: 4px;
+    width: 0;
+    background: #94ffc4;
+    transition: width .25s ease;
+}
+
+.navbar .custom-menu ul li a:hover:before {
+    width: 50%;
+    background: #94ffc4;
+    transition: width .25s ease;
+}
+
+.navbar .custom-menu ul li a:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}
+
+.navbar .site-menu ul li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar .site-menu ul li a {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+    color: #080808;
+}
+
+.navbar .site-menu ul li a:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 4px;
+    width: 0;
+    transition: width 0s ease, .25s ease;
+}
+
+.navbar .site-menu ul li a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -4px;
+    height: 4px;
+    width: 0;
+    background: #94ffc4;
+    transition: width .25s ease;
+}
+
+.navbar .site-menu ul li a:hover:before {
+    width: 50%;
+    background: #94ffc4;
+    transition: width .25s ease;
+}
+
+.navbar .site-menu ul li a:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}
+
+.navbar .search-button {
+    margin-left: auto;
+}
+
+.navbar .search-button:hover {
+    cursor: pointer;
+}
+
+.navbar .search-button i {
+    font-size: 21px;
+    cursor: pointer;
+}
+
+
+.navbar .navbar-button a {
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+    padding: 0 40px;
+    background: #94ffc4;
+    color: #080808;
+    font-size: 14px;
+    font-weight: 700;
+    transition: .25s ease-in-out;
+    text-decoration: none;
+}
+
+.navbar .navbar-button a:hover {
+    background: #080808;
+    color: #fff;
+}
+
+/*end nav bar*/
