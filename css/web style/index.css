@@ -298,6 +298,47 @@
 }
 /*end main content*/
 
+/*Start Leading*/
+.side-icon-list ul li {
+    margin-bottom: 50px;
+    list-style: none;
+}
+
+.side-icon-list ul li figure {
+    width: 80px;
+    float: left;
+}
+
+.side-icon-list ul li figure img {
+    height: 44px;
+}
+
+.side-icon-list ul li .content {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.side-icon-list ul li .content h5 {
+    display: block;
+    font-family: 'Cinzel', serif;
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.side-icon-list ul li .content p {
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.side-icon-list ul li .content a {
+    text-decoration: underline;
+    color: #080808;
+    font-weight: 700;
+}
+
+/*End Leading*/
+
 /*Start Upcoming Events*/
 .section-title h6 {
     font-weight: 400;
