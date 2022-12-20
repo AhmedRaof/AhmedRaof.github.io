@@ -568,3 +568,35 @@
 }
 
 /*End Be Safe*/
+
+/*Start Footer*/
+.footer .widget-title {
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'Cinzel', serif;
+  }
+  
+  .footer .widget-title::after {
+    content: "";
+    width: 70px;
+    height: 2px;
+    background: #080808;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .footer .footer-menu li a,
+  .footer .social-media li a,
+  .footer .footer-bottom .creation a {
+    color: #080808;
+    text-decoration: none;
+  }
+  
+  .footer .footer-menu li a:hover,
+  .footer .social-media li a:hover,
+  .footer .footer-bottom .creation a:hover {
+    text-decoration: underline;
+  }
+  
+  /*End Footer*/
